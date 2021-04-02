@@ -68,7 +68,7 @@ Vue.use(XyUI)
   <div id="app">
     <xy-button type="success" @click="visible=true">显示登录框</xy-button>
     <xy-dialog title="用户登录" :visible.sync="visible" width="30%">
-      <xy-form :model="model" label-width="80px">
+      <xy-form :model="model">
         <xy-form-item label="用户名">
           <xy-input v-model="model.username" placeholder="请输入用户名" clearable></xy-input>
         </xy-form-item>
