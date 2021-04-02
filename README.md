@@ -49,9 +49,7 @@ vue create demo
 + 安装组件库
 
 ```js
-npm install xy-ui --save
-#or
-yarn add xy-ui
+
 ```
 
 + 全局导入
