@@ -49,7 +49,7 @@ vue create demo
 + 安装组件库
 
 ```js
-
+npm install xy-z-vue-ui
 ```
 
 + 全局导入
